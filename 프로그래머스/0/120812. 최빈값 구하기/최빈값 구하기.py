@@ -18,8 +18,3 @@ def solution(array):
         return -1
     else:
         return modes[0]
-
-# 테스트 케이스
-print(solution([1, 2, 3, 3, 3, 4]))  # 3
-print(solution([1, 1, 2, 2]))        # -1
-print(solution([1]))                 # 1
